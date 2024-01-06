@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript fundamentals</title>
+    <h1>Javascript fundamentals</h1>
+</head>
+<body>
+   <script>
+
+//JavaScript is a versatile programming language commonly used for web development.
+ // Some fundamental concepts in JavaScript:
+
+            //1. Variables and Data Types:
+
+                //Variables: Used to store and manipulate data.
+                // Declared using var, let, or const.
+                
+                   /*  var x = 5;
+                    let y = "Hello";
+                    const PI = 3.14;
+
+                    console.log(x);      // outputs 5
+                    console.log(y);      // outputs "Hello"
+                    console.log(PI); */     // outputs 3.14
+
+                //2. Operators
+
+                        //1.Arithmetic Operators:
+                            //Perform basic arithmetic operations.
+                            var x = 10;
+                            var y = 5;
+
+                            console.log(x + y); // Addition: 15
+                            console.log(x - y); // Subtraction: 5
+                            console.log(x * y); // Multiplication: 50
+                            console.log(x / y); // Division: 2
+                            console.log(x % y); // Modulus: 0 (remainder of division)
+
+
+                               // 2.  Assignment Operators:
+
+                                // Assign values to variables.
+                                 
+                                var a = 10;
+                                var b = 5;
+
+                                a += b; // Equivalent to a = a + b;
+                                console.log(a); // outputs 15
+                              
+                                // 3.  Comparison Operators:
+
+                                //Compare values and return a Boolean result.
+                                
+                                var x = 10;
+                                var y = 5;
+
+                                console.log(x == y); // Equal: false
+                                console.log(x != y); // Not Equal: true
+                                console.log(x > y);  // Greater than: true
+                                console.log(x < y);  // Less than: false
+                                console.log(x >= y); // Greater than or equal: true
+                                console.log(x <= y); // Less than or equal: false
+                                
+                                
+                                // 4. Logical Operators:
+
+                                // Combine multiple Boolean expressions.
+                                 
+                                var a = true;
+                                var b = false;
+
+                                console.log(a && b); // Logical AND: false
+                                console.log(a || b); // Logical OR: true
+                                console.log(!a);     // Logical NOT: false
+                                
+                                
+                                // 5.Increment and Decrement Operators:
+                                //Increase or decrease the value of a variable by 1.
+                                  
+
+                                var count = 5;
+
+                                console.log(++count); // Pre-increment: 6
+                                console.log(count--); // Post-decrement: 6 (but count is now 5)
+                                 
+                                
+                                // 6. String Concatenation Operator:
+                               // Concatenate (combine) strings.
+                                
+                                var firstName = "John";
+                                var lastName = "Doe";
+
+                                var fullName = firstName + " " + lastName;
+                                console.log(fullName); // outputs "John Doe"
+                                
+                                
+                                //7. Conditional (Ternary) Operator:
+                                //A shorthand for an if-else statement.
+                                
+                                var age = 20;
+
+                                var message = (age >= 18) ? "Adult" : "Minor";
+                                console.log(message); // outputs "Adult
+
+
+                    // 3.  Control flow
+                    
+                    var condition = true;
+
+                    if (condition) {
+                    console.log("Condition is true");
+                    } else {
+                    console.log("Condition is false");
+                    }
+
+
+                    // 4. Loops
+
+                    for (var i = 0; i < 5; i++)
+                     {
+                        console.log("Iteration: " + i);
+                     }
+
+                     // 5. function
+
+                     function add(x, y) {
+                        return x + y;
+                        }
+
+                        console.log(add(3, 7));  // outputs 10
+
+              //  6. Arrays 
+
+              var fruits = ["apple", "orange", "banana"];
+
+                console.log(fruits[0]);  // outputs "apple"
+           
+                // 7. Objects
+
+                var person = {
+                name: "John",
+                age: 30,
+                isStudent: false
+                };
+
+                console.log(person.name);  // outputs "John"
+
+                // 8. Strings
+
+                var message = "Hello, World!";
+                console.log(message.length);  // outputs 13
+
+                //9. Events:
+                    //While the console is not used directly for event handling, you can see the output in the console when the event occurs.
+
+
+                        document.getElementById("myButton").addEventListener("click", function() {
+                        console.log("Button clicked!");
+                        });
+                
+                // 10. DOM Manipulation
+
+                        document.getElementById("myElement").innerHTML = "New Content";
+                            console.log("Element content updated");
+
+
+                // 11. Asynchronous JavaScript:
+
+                //Example using setTimeout for asynchronous behavior.
+
+                            console.log("Start");
+
+                               setTimeout(function() {
+                              console.log("Timeout completed");
+                               }, 2000);
+
+                                    console.log("End");
+                // 12. JSON (JavaScript Object Notation)
+                          
+                              var jsonData = '{"name": "John", "age": 30}';
+                              var parsedData = JSON.parse(jsonData);
+
+                               onsole.log(parsedData.name);  // outputs "John"
+
+
+
+   </script> 
+</body>
+</html>
